@@ -34,7 +34,7 @@ display: none !important;
     }
 }
 
-.tab-background[selected]{ background: #1c1b22 !important }
+.tab-background[selected]{ background: var(--accent-color) !important }
 
 @media (prefers-color-scheme: light) {
     :root {
